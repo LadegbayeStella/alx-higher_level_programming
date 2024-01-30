@@ -1,10 +1,4 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
-    uniq_list = set(my_list)
-    num = 0
-
-    for i in uniq_list:
-        num += i
-
-    return (num)
+def search_replace(my_list, search, replace):
+    return [replace if search == n else n for n in my_list]
 
